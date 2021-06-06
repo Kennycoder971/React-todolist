@@ -1,0 +1,21 @@
+.todoItem {
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+
+.todoItem button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.todoItem button:focus {
+    outline: none;
+}

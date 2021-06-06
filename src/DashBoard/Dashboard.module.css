@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.btnContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.formControl input {
+    align-self: flex-start;
+    margin-top: .5rem;
+}
+.popupContainer {
+    max-width: 50%;
+
+}
+.selectColor {
+    display: flex;
+    justify-content: space-between;
+}
+.currentColor {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: .5rem 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.currentColor:active {
+    transform: scale(1.5);
+}
+.currentColor:nth-child(1) {
+    background-color: teal;
+}
+.currentColor:nth-child(2) {
+    background-color: rgb(248, 112, 134);
+}
+.currentColor:nth-child(3) {
+    background-color: rgb(39, 79, 255);
+}
+.currentColor:nth-child(4) {
+    background-color: orange;
+}
+.currentColor:nth-child(5) {
+    background-color: rgb(194, 194, 56);
+}
+.currentColor:nth-child(6) {
+    background-color: orangered;
+}
+.currentColor:nth-child(7) {
+    background-color: maroon;
+}
+.currentColor:nth-child(8) {
+    background-color: rebeccapurple;
+}
+.currentColor:nth-child(9) {
+    background-color: #23252D;
+}
+.currentColor:nth-child(10) {
+    background-color: rgb(111, 182, 5);
+}

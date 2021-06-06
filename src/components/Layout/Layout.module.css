@@ -1,0 +1,20 @@
+.layout {
+    position: relative;
+    padding-top: 5rem;
+}
+
+.topColor {
+    background-color: #276562;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
