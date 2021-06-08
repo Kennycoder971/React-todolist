@@ -51,12 +51,15 @@ export function TodoListsContextProvider({ children }) {
 
     function addTodo(todoListId, todo) {
         setTodoLists((prevTodoLists => {
-            const foundTodoList = prevTodoLists.find(todoList => {
-                return todoList.id === todoListId
+            return prevTodoLists.map((todoList) => {
+                console.log('triggered');
+                if(todoList.id === todoListId) {
+                    todoList.listOfTodos.push(todo)
+                }
+                return todoList
             })
 
-            foundTodoList.todos.push(todo)
-            return prevTodoLists
+            
         }))
     }
 

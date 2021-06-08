@@ -1,9 +1,11 @@
 .todoList {
     border-top: 3px solid orange;
     padding: 10px 15px;
-    max-width: 250px;
+    max-width: 300px;
+    width: 250px;
     border-radius: 5px;
     background-color: white;
+    color: black;
 }
 
 .head {

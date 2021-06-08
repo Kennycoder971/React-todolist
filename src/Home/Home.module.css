@@ -1,0 +1,15 @@
+
+
+.homeContainer {
+    max-width: 500px;
+    margin:0 auto;
+    margin-top: 10vh;
+    background-color: white;
+    padding: 2rem;
+    color: black;
+    border-radius: 10px;
+}
+
+.homeContainer input {
+    margin: 1rem 0;
+}

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import HomePage from './Home'
+import HomePage from './Home/Home'
 import Dashboard from './DashBoard/Dashboard'
 import Layout from './components/Layout/Layout'
 import { TodoListsContextProvider } from './store/todo-context'

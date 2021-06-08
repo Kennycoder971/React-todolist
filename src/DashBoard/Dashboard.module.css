@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.modalContainer {
+    max-width: 400px;
+}
 .btnContainer {
     display: flex;
     gap: 1rem;
@@ -19,7 +22,6 @@
 }
 .popupContainer {
     max-width: 50%;
-
 }
 .selectColor {
     display: flex;
@@ -65,4 +67,11 @@
 }
 .currentColor:nth-child(10) {
     background-color: rgb(111, 182, 5);
+}
+
+.todolistsContainer {
+    width: 100%;
+    margin-top: 17vh;
+    display: flex;
+    gap: 1rem;
 }
